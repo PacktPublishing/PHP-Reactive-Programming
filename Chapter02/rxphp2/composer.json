@@ -1,0 +1,23 @@
+{
+    "name": "martin/rxphp",
+    "minimum-stability": "dev",
+    "authors": [
+        {
+            "name": "Martin Sikora",
+            "email": "lazyeuropean@gmail.com"
+        }
+    ],
+    "repositories": [
+        {
+            "url": "https://github.com/davidwdan/RxPHP.git",
+            "type": "git"
+        }
+    ],
+    "require": {
+        "wyrihaximus/react-async-interop-loop": "^0.2.1",
+        "reactivex/rxphp": "2.x-dev"
+    },
+    "autoload": {
+        "files": ["vendor/reactivex/rxphp/src/bootstrap.php"]
+    }
+}
